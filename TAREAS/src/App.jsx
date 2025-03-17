@@ -6,8 +6,8 @@ import Task from './components/Tasks';
 function App() {
   return (
     <Router>
-      <AppRouter />;
       <MyNavbar />;
+      <AppRouter />;
       <Task />
     </Router>
   );
