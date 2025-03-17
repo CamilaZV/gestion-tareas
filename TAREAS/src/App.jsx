@@ -1,8 +1,15 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRouter from './components/AppRouter';
+import MyNavbar from './components/MyNavbar';
+import Task from './components/Tasks';
+
 function App() {
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <Router>
+      <AppRouter />;
+      <MyNavbar />;
+      <Task />
+    </Router>
   );
 }
 
